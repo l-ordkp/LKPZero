@@ -49,7 +49,7 @@ def play_game():
         else:
             similar_positions = retrieve_similar_positions(board)
             move = generate_move(board, similar_positions)
-            print(f"LKPZero's move: {move}")
+            print(f"LKP0's move: {move}")
             board.push(move)
     
     print("Game over. Result:", board.result())
